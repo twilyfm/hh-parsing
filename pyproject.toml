@@ -7,6 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pandas = "^2.1.4"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+fake-useragent = "^1.4.0"
+urllib3 = "1.26.6"
+webdriver-manager = "^4.0.1"
+selenium = "^4.16.0"
+tqdm = "^4.66.1"
 
 
 [build-system]
