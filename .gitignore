@@ -1,5 +1,9 @@
 poetry.lock
-check.py
+hh_parsing/check.py
 .idea/
 data/
 .DS_Store
+hh_parsing/config.py
+config.py
+
+./hh_parsing/config.py

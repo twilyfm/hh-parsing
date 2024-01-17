@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import numpy as np
 from tqdm import tqdm
 import os
-
+from config import vacancy_name
 
 
 names = []
@@ -136,6 +136,7 @@ for vacancy in tqdm(vacancies):
     # Switch back to the old tab or window
     driver.switch_to.window(prime_tab)
 
+# привинтить конкретную дату к имени файла
 
 time.sleep(6)
 driver.close()
