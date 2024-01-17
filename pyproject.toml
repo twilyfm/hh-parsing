@@ -16,6 +16,7 @@ webdriver-manager = "^4.0.1"
 selenium = "^4.16.0"
 tqdm = "^4.66.1"
 pytelegrambotapi = "^4.15.2"
+pyspark = "^3.5.0"
 
 
 [build-system]
