@@ -17,6 +17,8 @@ selenium = "^4.16.0"
 tqdm = "^4.66.1"
 pytelegrambotapi = "^4.15.2"
 pyspark = "^3.5.0"
+pyarrow = "^14.0.2"
+fastparquet = "^2023.10.1"
 
 
 [build-system]

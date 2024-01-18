@@ -1,9 +1,15 @@
 poetry.lock
-hh_parsing/check.py
+check.py
 .idea/
 data/
 .DS_Store
 hh_parsing/config.py
 config.py
+bash_commands
+airflow/logs/
 
-./hh_parsing/config.py
+airflow/airflow.cfg
+airflow/airflow.db
+airflow/airflow-webserver.pid
+airflow/webserver_config.py
+airflow/standalone_admin_password.txt

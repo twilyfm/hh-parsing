@@ -51,7 +51,11 @@ def parsing(vacancy_name: str) -> pd.DataFrame:
     # save the original tab id
     prime_tab = driver.current_window_handle
 
+    i = 0
+
     for vacancy in tqdm(vacancies):
+        if i > 10:
+            break
 
         # open new tab with vacancy
         try:
